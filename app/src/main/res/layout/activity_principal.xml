@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logoInicio"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/logo"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/btnIrLogin"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:text="Iniciar Sesión"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnIrRegistro"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:text="Registrarse"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

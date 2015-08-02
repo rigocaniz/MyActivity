@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Ingresar Actividad"
+        android:id="@+id/btnIrActividad"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnIrActividades"
+        android:text="Actividades"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnIrEstadistica"
+        android:text="Estadística"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Créditos"
+        android:id="@+id/btnIrCreditos"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnIrSalir"
+        android:text="Salir"
+        />
+
+</LinearLayout>
